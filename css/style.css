@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  background-color: antiquewhite;
+}
+
+header {
+  background-color: skyblue;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 20vw;
+  height: 100vh;
+}
+
+nav {
+  background-color: skyblue;
+}
+
+main.home {
+  width: 80vw;
+  height: 100vh;
+}
+
+ul.lista-links {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  list-style: none;
+}
+
+li.opct {
+  opacity: 1;
+}
+
+.opct:hover {
+  opacity: 0.5;
+}
+
+li {
+  margin-bottom: 10%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img.foto-perfil {
+  width: 210px;
+  height: 210px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+div.bio {
+  margin-top: 20%;
+  margin-left: 50px;
+}
+
+h1.nome {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 80px;
+}
+
+p.endereço {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+div.descrição {
+  margin-left: 50px;
+  margin-top: 20px;
+  text-align: justify;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.redes-sociais {
+  display: flex 10px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+img.redes {
+  max-width: 35px;
+  margin-left: 10px;
+  opacity: 1;
+}
+
+.redes:hover {
+  opacity: 0.5;
+}
+
+main.conhecimen {
+  width: 80vw;
+  height: 100vh;
+}
+
+div.titulo-conhe {
+  text-align: center;
+  margin-top: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+div.icons-conhe {
+  margin-left: 40px;
+  margin-top: 60px;
+}
+
+div.titulo-obj {
+  margin-top: 90px;
+  margin-left: 150px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+div.objetivos {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 80px;
+  margin-top: 100px;
+}
